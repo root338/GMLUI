@@ -19,6 +19,22 @@ extension UIView {
             return self.layer.cornerRadius
         }
     }
+    var gml_borderColor : CGColor? {
+        get {
+            return self.layer.borderColor
+        }
+        set {
+            self.layer.borderColor = newValue
+        }
+    }
+    var gml_borderWidth : CGFloat {
+        get {
+            return self.layer.borderWidth
+        }
+        set {
+            self.layer.borderWidth = newValue
+        }
+    }
     
     func gml_set(borderColor: UIColor?, borderWidth: CGFloat) {
         let layer = self.layer
@@ -42,16 +58,6 @@ extension UIView {
 
 // MARK: - 设置 UIView 自身的属性
 extension UIView {
-    var gml_frame : CGRect {
-        set {
-            if !newValue.equalTo(self.frame) {
-                self.frame = newValue
-            }
-        }
-        get {
-            return self.frame
-        }
-    }
     
     var gml_x : CGFloat {
         get {
@@ -101,6 +107,22 @@ extension UIView {
             }
         }
     }
+    var gml_midX : CGFloat {
+        get {
+            return self.frame.midX
+        }
+        set {
+            gml_center = .init(x: newValue, y: self.frame.midY)
+        }
+    }
+    var gml_midY : CGFloat {
+        get {
+            return self.frame.midY
+        }
+        set {
+            gml_center = .init(x: self.frame.midX, y: newValue)
+        }
+    }
     var gml_origin : CGPoint {
         get {
             return self.frame.origin
@@ -108,6 +130,17 @@ extension UIView {
         set {
             if !self.frame.origin.equalTo(newValue) {
                 self.frame = CGRect.init(origin: newValue, size: self.frame.size)
+            }
+        }
+    }
+    var gml_center : CGPoint {
+        get {
+            return self.center
+        }
+        set {
+            let frame = CGRect.init(origin: .init(x: newValue.x - self.frame.size.width / 2, y: newValue.y - self.frame.size.height / 2), size: self.frame.size)
+            if !self.frame.equalTo(frame) {
+                self.frame = frame
             }
         }
     }
@@ -121,5 +154,14 @@ extension UIView {
             }
         }
     }
-    
+    var gml_frame : CGRect {
+        set {
+            if !newValue.equalTo(self.frame) {
+                self.frame = newValue
+            }
+        }
+        get {
+            return self.frame
+        }
+    }
 }
