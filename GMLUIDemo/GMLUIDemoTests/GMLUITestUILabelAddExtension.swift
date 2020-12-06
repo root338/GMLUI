@@ -1,5 +1,5 @@
 //
-//  GMLUITestViewAddExtension.swift
+//  GMLUITestUILabelAddExtension.swift
 //  GMLUIDemoTests
 //
 //  Created by apple on 2018/11/21.
@@ -8,13 +8,10 @@
 
 import XCTest
 
-class GMLUITestViewAddExtension: XCTestCase {
-    
-    var testView : UIView!
-    
+class GMLUITestUILabelAddExtension: XCTestCase {
+
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        testView = UIView.init()
     }
 
     override func tearDown() {
@@ -25,7 +22,6 @@ class GMLUITestViewAddExtension: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-    
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		187CF19621A5432200350678 /* GMLUITestUILabelCreateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CF19521A5432200350678 /* GMLUITestUILabelCreateExtension.swift */; };
+		1818BE27257CB6FB00C9C091 /* GMLUIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818BE26257CB6FB00C9C091 /* GMLUIProtocol.swift */; };
+		1818BE2C257CB91D00C9C091 /* GMLUIAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818BE2B257CB91D00C9C091 /* GMLUIAppearance.swift */; };
+		1818BE45257CD30600C9C091 /* GMLLayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818BE44257CD30600C9C091 /* GMLLayerExtension.swift */; };
+		187CF19621A5432200350678 /* GMLUITestUILabelAddExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CF19521A5432200350678 /* GMLUITestUILabelAddExtension.swift */; };
+		187CF19821A551C200350678 /* GMLCreateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CF19721A551C200350678 /* GMLCreateViews.swift */; };
+		187CF19921A552B000350678 /* GMLCreateViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187CF19721A551C200350678 /* GMLCreateViews.swift */; };
 		18C5076D21A4FDC300D4ECD3 /* GMLUITestViewAddExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5076C21A4FDC300D4ECD3 /* GMLUITestViewAddExtension.swift */; };
-		18C5076E21A4FEB300D4ECD3 /* UIView+GMLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E57621A39FD80048DA15 /* UIView+GMLAdd.swift */; };
-		18C5076F21A4FEF400D4ECD3 /* UILabel+GMLCreateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E57421A39FD80048DA15 /* UILabel+GMLCreateExtension.swift */; };
+		18C5076E21A4FEB300D4ECD3 /* GMLViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E57621A39FD80048DA15 /* GMLViewExtension.swift */; };
 		18C7E54521A39EE90048DA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E54421A39EE90048DA15 /* AppDelegate.swift */; };
 		18C7E54721A39EE90048DA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E54621A39EE90048DA15 /* ViewController.swift */; };
 		18C7E54A21A39EE90048DA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7E54821A39EE90048DA15 /* Main.storyboard */; };
@@ -18,8 +22,7 @@
 		18C7E54F21A39EEC0048DA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C7E54D21A39EEC0048DA15 /* LaunchScreen.storyboard */; };
 		18C7E55A21A39EEC0048DA15 /* GMLUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E55921A39EEC0048DA15 /* GMLUIDemoTests.swift */; };
 		18C7E56521A39EEC0048DA15 /* GMLUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E56421A39EEC0048DA15 /* GMLUIDemoUITests.swift */; };
-		18C7E57721A39FD90048DA15 /* UILabel+GMLCreateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E57421A39FD80048DA15 /* UILabel+GMLCreateExtension.swift */; };
-		18C7E57821A39FD90048DA15 /* UIView+GMLAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E57621A39FD80048DA15 /* UIView+GMLAdd.swift */; };
+		18C7E57821A39FD90048DA15 /* GMLViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C7E57621A39FD80048DA15 /* GMLViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		187CF19521A5432200350678 /* GMLUITestUILabelCreateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUITestUILabelCreateExtension.swift; sourceTree = "<group>"; };
+		1818BE26257CB6FB00C9C091 /* GMLUIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUIProtocol.swift; sourceTree = "<group>"; };
+		1818BE2B257CB91D00C9C091 /* GMLUIAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUIAppearance.swift; sourceTree = "<group>"; };
+		1818BE44257CD30600C9C091 /* GMLLayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLLayerExtension.swift; sourceTree = "<group>"; };
+		187CF19521A5432200350678 /* GMLUITestUILabelAddExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUITestUILabelAddExtension.swift; sourceTree = "<group>"; };
+		187CF19721A551C200350678 /* GMLCreateViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLCreateViews.swift; sourceTree = "<group>"; };
 		18C5076C21A4FDC300D4ECD3 /* GMLUITestViewAddExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUITestViewAddExtension.swift; sourceTree = "<group>"; };
 		18C7E54121A39EE90048DA15 /* GMLUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMLUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7E54421A39EE90048DA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +62,7 @@
 		18C7E56021A39EEC0048DA15 /* GMLUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMLUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7E56421A39EEC0048DA15 /* GMLUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMLUIDemoUITests.swift; sourceTree = "<group>"; };
 		18C7E56621A39EEC0048DA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18C7E57421A39FD80048DA15 /* UILabel+GMLCreateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+GMLCreateExtension.swift"; sourceTree = "<group>"; };
-		18C7E57621A39FD80048DA15 /* UIView+GMLAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+GMLAdd.swift"; sourceTree = "<group>"; };
+		18C7E57621A39FD80048DA15 /* GMLViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GMLViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1818BE22257CB6BE00C9C091 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				1818BE26257CB6FB00C9C091 /* GMLUIProtocol.swift */,
+				1818BE2B257CB91D00C9C091 /* GMLUIAppearance.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
+		1818BE33257CBC2D00C9C091 /* ViewExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				18C7E57621A39FD80048DA15 /* GMLViewExtension.swift */,
+			);
+			path = ViewExtensions;
+			sourceTree = "<group>";
+		};
+		1818BE40257CD0F600C9C091 /* LayerExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1818BE44257CD30600C9C091 /* GMLLayerExtension.swift */,
+			);
+			path = LayerExtension;
+			sourceTree = "<group>";
+		};
 		18C7E53821A39EE80048DA15 = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +154,7 @@
 			children = (
 				18C7E55921A39EEC0048DA15 /* GMLUIDemoTests.swift */,
 				18C5076C21A4FDC300D4ECD3 /* GMLUITestViewAddExtension.swift */,
-				187CF19521A5432200350678 /* GMLUITestUILabelCreateExtension.swift */,
+				187CF19521A5432200350678 /* GMLUITestUILabelAddExtension.swift */,
 				18C7E55B21A39EEC0048DA15 /* Info.plist */,
 			);
 			path = GMLUIDemoTests;
@@ -141,27 +172,21 @@
 		18C7E57221A39FD80048DA15 /* GMLUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				18C7E57321A39FD80048DA15 /* UICreateExtension */,
-				18C7E57521A39FD80048DA15 /* UISetExtension */,
+				1818BE40257CD0F600C9C091 /* LayerExtension */,
+				1818BE33257CBC2D00C9C091 /* ViewExtensions */,
+				1818BE22257CB6BE00C9C091 /* Appearance */,
+				18C7E57521A39FD80048DA15 /* CreateViews */,
 			);
 			name = GMLUIKit;
 			path = ../GMLUIKit;
 			sourceTree = "<group>";
 		};
-		18C7E57321A39FD80048DA15 /* UICreateExtension */ = {
+		18C7E57521A39FD80048DA15 /* CreateViews */ = {
 			isa = PBXGroup;
 			children = (
-				18C7E57421A39FD80048DA15 /* UILabel+GMLCreateExtension.swift */,
+				187CF19721A551C200350678 /* GMLCreateViews.swift */,
 			);
-			path = UICreateExtension;
-			sourceTree = "<group>";
-		};
-		18C7E57521A39FD80048DA15 /* UISetExtension */ = {
-			isa = PBXGroup;
-			children = (
-				18C7E57621A39FD80048DA15 /* UIView+GMLAdd.swift */,
-			);
-			path = UISetExtension;
+			path = CreateViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,18 +252,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					18C7E54021A39EE90048DA15 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1220;
 					};
 					18C7E55421A39EEC0048DA15 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1220;
 						TestTargetID = 18C7E54021A39EE90048DA15;
 					};
 					18C7E55F21A39EEC0048DA15 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1220;
 						TestTargetID = 18C7E54021A39EE90048DA15;
 					};
 				};
@@ -296,9 +324,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C7E54721A39EE90048DA15 /* ViewController.swift in Sources */,
-				18C7E57721A39FD90048DA15 /* UILabel+GMLCreateExtension.swift in Sources */,
+				1818BE45257CD30600C9C091 /* GMLLayerExtension.swift in Sources */,
 				18C7E54521A39EE90048DA15 /* AppDelegate.swift in Sources */,
-				18C7E57821A39FD90048DA15 /* UIView+GMLAdd.swift in Sources */,
+				187CF19821A551C200350678 /* GMLCreateViews.swift in Sources */,
+				1818BE27257CB6FB00C9C091 /* GMLUIProtocol.swift in Sources */,
+				1818BE2C257CB91D00C9C091 /* GMLUIAppearance.swift in Sources */,
+				18C7E57821A39FD90048DA15 /* GMLViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,10 +337,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187CF19621A5432200350678 /* GMLUITestUILabelCreateExtension.swift in Sources */,
-				18C5076E21A4FEB300D4ECD3 /* UIView+GMLAdd.swift in Sources */,
+				187CF19621A5432200350678 /* GMLUITestUILabelAddExtension.swift in Sources */,
+				18C5076E21A4FEB300D4ECD3 /* GMLViewExtension.swift in Sources */,
 				18C7E55A21A39EEC0048DA15 /* GMLUIDemoTests.swift in Sources */,
-				18C5076F21A4FEF400D4ECD3 /* UILabel+GMLCreateExtension.swift in Sources */,
+				187CF19921A552B000350678 /* GMLCreateViews.swift in Sources */,
 				18C5076D21A4FDC300D4ECD3 /* GMLUITestViewAddExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +414,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -444,6 +476,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -480,14 +513,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = GMLUIDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -499,14 +532,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29W9687J6A;
 				INFOPLIST_FILE = GMLUIDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -526,7 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLUIDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLUIDemo.app/GMLUIDemo";
 			};
@@ -547,7 +580,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLUIDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLUIDemo.app/GMLUIDemo";
 			};
@@ -567,7 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLUIDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GMLUIDemo;
 			};
@@ -587,7 +620,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YM.GMLUIDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GMLUIDemo;
 			};
